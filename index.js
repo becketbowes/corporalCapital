@@ -1,1 +1,3 @@
-var inquirer = require('inquirer');
+const Authenticate = require('./lib/Authenticate');
+
+Authenticate();
