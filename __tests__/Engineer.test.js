@@ -1,11 +1,9 @@
 const Engineer = require('../lib/Engineer');
 
 test('creates an engineer object', () => {
-    const employee = new Employee('Fred Durst');
-    this.employee.title = 'Engineer';
-    this.employee.github = 'freddurst';
+    let pontificus = new Engineer('Frank', 'Frank', 'Engineer', 'random', 'grace@aol.com', '914-663-7844', 'killpixies');
 
-    expect(employee.name).toBe('Fred Durst');
-    expect(employee.title).toBe('Engineer');
-    expect(employee.github).toBe('freddurst');
+    expect(pontificus.banana).toEqual('Frank');
+    expect(pontificus.title).toBe('Engineer');
+    expect(pontificus.github).toBe('killpixies');
 });

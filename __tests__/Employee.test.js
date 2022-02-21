@@ -1,35 +1,26 @@
 const Employee = require('../lib/Employee');
 
-const projectTitle = 'cool new thing';
-const idType = 'random'
-var data = function () {
-    this.title = 'Manager',
-    this.nombre = 'Honey Booboo',
-    this.email = 'becket@newexperiments.com',
-    this.phone = 9179304602
-};
-
 test('creates an employee name', () => {
-    let dursty = new Employee(projectTitle, idType, data);
+    let dursty = new Employee('Honey Booboo', 'Manager',  'Random', 'boo@aol.com', '970-008-3747');
 
-    expect(dursty.nombre).toBe('Honey Booboo');
+    expect(dursty.employeename).toEqual('Honey Booboo');
 });
 
 test('gets an employee id', () => {
-    let shawna = new Employee(projectTitle, idType, data);
+    let shawna = new Employee('Honey Booboo', 'Manager',  'Random', 'boo@aol.com', '914-663-7844');
 
-    expect(shawna.phone).toEqual(expect.any(Number));
+    expect(shawna.id).toEqual(expect.any(Number));
 });
 
 test('creates an employee phone number', () => {
-    let busta = new Employee(projectTitle, idType, data);
+    let busta = new Employee('Honey Booboo', 'Manager',  'Random', 'boo@aol.com', '914-663-7844');
 
-    expect(busta.phone).toEqual(9179304602);
+    expect(busta.phone).toEqual('914-663-7844');
 });
 
 test('creates an employee email address', () => {
-    let leann = new Employee(projectTitle, idType, data);
+    let leann = new Employee('Honey Booboo', 'Manager',  'Random', 'grace@aol.com', '914-663-7844');
 
-    expect(leann.email).toEqual(expect.any(String));
+    expect(leann.email).toEqual('grace@aol.com');
 });
 

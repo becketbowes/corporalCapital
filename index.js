@@ -1,3 +1,5 @@
-const Authenticate = require('./lib/Authenticate');
+const makeProject = require('./lib/Project')
 
-Authenticate();
+this.project = new makeProject();
+
+// Authenticate();

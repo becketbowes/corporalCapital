@@ -1,11 +1,9 @@
-const Manaager = require('../lib/Manager');
+const Manager = require('../lib/Manager');
 
 test('creates a manager object', () => {
-    const manager = new Manager('Fred Durst');
-    this.manager.title = 'Engineer';
-    this.manager.number = '003';
+    let barm = new Manager('Kim Deal', 'Kim Deal', 'Manager', 'random', 'grace@aol.com', '914-663-7844', '01');
 
-    expect(manager.name).toBe('Fred Durst');
-    expect(manager.title).toBe('Manager');
-    expect(manager.number).toEqual(expect.any(Number));
+    expect(barm.banana).toEqual('Kim_Deal');
+    expect(barm.title).toBe('Manager');
+    expect(barm.number).toEqual('01');
 });
