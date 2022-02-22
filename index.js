@@ -1,4 +1,4 @@
-const makeProject = require('./lib/Project')
+const makeProject = require('./lib/project')
 
 this.project = new makeProject();
 
