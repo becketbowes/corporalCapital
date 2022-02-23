@@ -1,8 +1,11 @@
-const Intern = require('../lib/Intern');
+const Intern = require('../lib/Member');
 
 test('creates an intern object', () => {
-    const goovus = new Intern('Intern', 'ordinal');
+    let fellah = new Intern('Paulie Girl', 'Engineer', 'shit@poop.scat', '458-663-7183', 'random');
 
-    expect(goovus.title).toBe('Intern');
-    expect(goovus.id).toEqual(expect.any(Number));
+    expect(fellah.personName).toBe('Paulie Girl');
+    expect(fellah.position).toBe('Engineer');
+    expect(fellah.id).toEqual(expect.any(Number));
+    expect(fellah.phone).toBe('458-663-7183');
+    expect(fellah.email).toBe('shit@poop.scat');
 });

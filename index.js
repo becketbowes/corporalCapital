@@ -1,5 +1,4 @@
-const makeProject = require('./lib/project')
+const Team = require('./lib/Team')
 
-this.project = new makeProject();
-
-// Authenticate();
+let papasGotABrand = new Team();
+papasGotABrand.teamBuildingExcercise();
