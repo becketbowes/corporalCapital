@@ -7,9 +7,6 @@ test('creates an engineer object', () => {
     fellah.email = 'shit@poop.scat';
     fellah.phone = '458-663-7183';
     
-
-
-
     expect(fellah.person).toBe('Paulie Girl');
     expect(fellah.position).toBe('Engineer');
     expect(fellah.id).toEqual(expect.any(Number));
