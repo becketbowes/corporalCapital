@@ -9,7 +9,6 @@ test('creates a member object', () => {
 
     expect(fellah.person).toBe('Paulie Girl');
     expect(fellah.position).toBe('Engineer');
-    expect(fellah.id).toEqual(expect.any(Number));
     expect(fellah.phone).toBe('458-663-7183');
     expect(fellah.email).toBe('shit@poop.scat');
 });

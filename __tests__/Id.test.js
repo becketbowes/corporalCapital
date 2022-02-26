@@ -1,4 +1,4 @@
-const Id = require('../lib/Id');
+const Id = require('../lib/utils/id');
 
 test('random returns eight digit random code', () => {
     id = Id('random');

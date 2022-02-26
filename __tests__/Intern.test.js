@@ -9,7 +9,6 @@ test('creates an intern object', () => {
     fellah.school = 'something';
     
     expect(fellah.person).toBe('Paulie Girl');
-    expect(fellah.id).toEqual(expect.any(Number));
     expect(fellah.email).toBe('shit@poop.scat');
     expect(fellah.school).toBe('something');
     expect(fellah.position).toBe('Engineer');
