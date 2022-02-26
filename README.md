@@ -5,6 +5,7 @@
 
   ## OVERVIEW:
    A rolodex website generator. This facilitates making a webpage to log teammember information. Using a simple command line series of questions, it builds a website with clickable links.
+   Screencast runthrough: https://watch.screencastify.com/v/xW7AptK7SB95emwtv1WM
 
   ## Table Of Contents:
   [Installation](README.md#installation)<br>
