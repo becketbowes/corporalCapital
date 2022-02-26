@@ -52,6 +52,11 @@ button {
     background-color: var(--lighttrans);
 }
 
+a:link {
+    text-decoration: none;
+    background-color: var(--lighttrans);
+}
+
 footer {
     margin-bottom: 1000px;
 }
